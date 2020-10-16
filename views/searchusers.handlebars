@@ -1,0 +1,8 @@
+<h1>search users</h1>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form class="form-inline" action="/user/search" method="post">
+    <div class="form-group">
+        <input type="text" name="id" class="form-control" placeholder="cari data user berdasarkan ID" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn btn-primary" value="search">Submit</button>
+</form>
